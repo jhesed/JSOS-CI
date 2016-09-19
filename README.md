@@ -1,2 +1,2 @@
 # JSOS-CI
-JSOS website created using codeigniter
+Jesus Sovereign Overcoming Shepherd Christian Christian website created using PHP Codeigniter
