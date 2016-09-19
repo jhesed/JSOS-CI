@@ -1,0 +1,70 @@
+
+/*
+    TABS
+*/
+ul.tabs {
+    float:left;
+    list-style:none;
+    height:32px;
+    width:100%;
+    border-radius:8px 0 -50px 0;
+    margin:0;
+    padding-top: 20px;
+}
+ 
+ul.tabs li {
+    float:left;
+    height:31px;
+    line-height:31px;
+    border:1px solid #999;
+    overflow:hidden;
+    position:relative;
+    background:#F8F8F8 ;
+    margin:0 5px -1px 0;
+    padding:0;
+}
+ul.tabs li, ul.tabs li a {
+    -webkit-border-top-left-radius:8px;
+    -webkit-border-top-right-radius:8px;
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+ul.tabs li a {
+    font-family: "Trajan Pro", "Times New Roman";
+    text-decoration:none;
+    color:#d02662;
+    display:block;
+    font-size:1.0em;
+    border:1px solid #FFFFCC;
+    outline:none;
+    padding:0 20px;
+} 
+ul.tabs li a:hover {
+    background:#ccc;
+} 
+html ul.tabs li.active,html ul.tabs li.active a:hover {
+    background: #FFFFCC;
+    border-bottom:1px solid #FFFFCC;
+}
+.tabContainer {
+    border:1px solid #999;
+    overflow:hidden;
+    clear:both;
+    float:left;
+    width:100%;
+    background:#fff;
+    -webkit-border-radius:8px;
+    -webkit-border-top-left-radius:0;
+    -moz-border-radius:8px;
+    -moz-border-radius-topleft:0;
+    border-radius:8px;
+    border-top-left-radius:0;
+}
+.tabContent {
+    font-family: "Times New Roman";
+    font-size: .8em;
+    padding:20px;
+    background-color: #FFFFCC;
+}

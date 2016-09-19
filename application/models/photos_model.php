@@ -1,0 +1,1 @@
+<?php class Photos_model extends CI_Model{	public function __construct()	{		$this->load->database();	}	public function get_all($album_id)	{		$query = "SELECT photo, album_folder, album_title FROM photos WHERE album_id=$album_id";		$result = $this->db->query($query);		return $result->result_array();	}}

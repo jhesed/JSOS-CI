@@ -1,0 +1,95 @@
+/* Gallery styles */
+
+#gallery{
+	/* CSS3 Box Shadow */    
+    -webkit-box-shadow: 1px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	
+	/* CSS3 Rounded Corners */
+	
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-left-radius:7px;
+	border-bottom-left-radius:7px;
+	
+	-moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-right-radius:7px;
+	border-bottom-right-radius:7px;	
+	border:1px solid white;
+	
+	background:url(../../../static/images/web/slider/panel.jpg) repeat-x bottom center #ffffff;
+	
+	/* The width of the gallery */
+	width:500px;
+	overflow:hidden;
+}
+#slides{
+	/* This is the slide area */
+	height:300px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:500px;
+	overflow:hidden;
+}
+.slide{
+	float:left;
+}
+#menu{
+	/* This is the container for the thumbnails */
+	height:45px;
+}
+#menu ul{
+	margin:0px;
+	padding:0px;
+}
+#menu li{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+}
+#menu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(../../../static/images/web/slider/pic_bg.png) repeat;
+}
+#menu li.act,#menu li.act:hover{
+	/* The active state of the thumb */
+	background:url(../../../static/images/web/slider/active_bg.png) no-repeat;
+}
+#menu li.act a{
+	cursor:default;
+}
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px;
+	background:url(../../../static/images/web/slider/divider.png) no-repeat right;
+}
+#menu li a{
+	display:block;
+	background:url(../../../static/images/web/slider/divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+}
+#menu a img{
+	border:none;
+}
+#main{
+	/* The main container */
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	width:500px;
+	position:relative;
+}
+
+#menu a, #menu a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+#menu a:hover{
+	text-decoration:underline;
+}
