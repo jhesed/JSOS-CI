@@ -47,3 +47,11 @@ ERROR - 2016-09-16 18:54:08 --> Severity: Notice  --> Undefined variable: c_ads 
 ERROR - 2016-09-16 18:54:11 --> IP: 138.201.127.112 ---  ---  ---  --- track historical glimpse --- 
 ERROR - 2016-09-16 18:54:11 --> Severity: Notice  --> Undefined variable: c_ads /usr/local/lib/php/foot.php 4
 ERROR - 2016-09-16 21:44:37 --> IP: 112.198.68.217 ---  ---  ---  --- home index --- 
+ERROR - 2016-09-16 22:09:33 --> IP: 112.198.68.217 ---  ---  ---  --- home index --- 
+ERROR - 2016-09-16 22:09:42 --> IP: 112.198.68.217 ---  ---  ---  --- about us location --- 
+ERROR - 2016-09-16 22:18:27 --> IP: 112.198.68.217 ---  ---  ---  --- about us location --- 
+ERROR - 2016-09-16 22:18:27 --> IP: 112.198.68.217 ---  ---  ---  --- home index --- 
+ERROR - 2016-09-16 22:18:32 --> IP: 112.198.68.217 ---  ---  ---  --- about us location --- 
+ERROR - 2016-09-16 22:18:39 --> IP: 112.198.68.217 ---  ---  ---  --- about us history --- 
+ERROR - 2016-09-16 22:47:27 --> IP: 195.22.127.227 ---  ---  ---  --- albums index --- 
+ERROR - 2016-09-16 23:24:34 --> IP: 168.235.207.204 ---  ---  ---  --- home index --- 
